@@ -12,6 +12,9 @@
 
 /* Header */
 @import url(./blocks/header/header.css);
+@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__email/header__email.css);
+@import url(./blocks/header/__btn/header__btn.css);
 
 /* logo */
 @import url(./blocks/logo/logo.css);
@@ -54,9 +57,11 @@
 @import url(./blocks/popup/_opened/popup_opened.css);
 @import url(./blocks/popup/__container/popup__container.css);
 @import url(./blocks/popup/__form/popup__form.css);
+@import url(./blocks/popup/__form/_info-tooltip/popup__form_info-tooltip.css);
 @import url(./blocks/popup/__close-btn/popup__close-btn.css);
 @import url(./blocks/popup/__title/popup__title.css);
 @import url(./blocks/popup/__title/_delete/popup__title_delete.css);
+@import url(./blocks/popup/__title/_info-tooltip/popup__title_info-tooltip.css);
 @import url(./blocks/popup/__text/popup__text.css);
 @import url(./blocks/popup/__text/_input/popup__text_input_name.css);
 @import url(./blocks/popup/__text/_input/popup__text_input_job.css);
@@ -67,6 +72,7 @@
 @import url(./blocks/popup/__card-name/popup__card-name.css);
 @import url(./blocks/popup/__save-btn/popup__save-btn.css);
 @import url(./blocks/popup/__save-btn/_inactive/popup__save-btn_inactive.css);
+@import url(./blocks/popup/__info-img/popup__info-img.css);
 
 @import url(./blocks/popup/_type/popup_type_profile.css);
 @import url(./blocks/popup/_type/popup_type_card.css);
@@ -83,6 +89,14 @@
 @import url(./blocks/form/__input-error/form__input-error.css);
 @import url(./blocks/form/__input-error/_active/form__input-error_active.css);
 @import url(./blocks/form/__input-error/_type/form__input_type_error.css);
+
+/* reg */
+@import url(./blocks/reg/reg.css);
+@import url(./blocks/reg/__title/reg__title.css);
+@import url(./blocks/reg/__form/reg__form.css);
+@import url(./blocks/reg/__field/reg__field.css);
+@import url(./blocks/reg/__btn/reg__btn.css);
+@import url(./blocks/reg/__link/reg__link.css);
 
 /* для теста */
 @import url(./blocks/none.css);
